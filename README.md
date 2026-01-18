@@ -15,30 +15,41 @@ The following **required** functionality is completed:
 * [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
 * [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
+
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] Added a search option to find specific games from the list.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="assets/SeaMonster.gif" title="Video Walkthrough" width="600" alt="Video Walkthrough" />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif https://www.screentogif.com/
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
+Imported game data and created a function to remove all child elements from a DOM parent.
 
+Dynamically displayed each game as a card with image, name, and description on the page.
+
+Calculated and displayed total contributions, total dollars raised, and number of games.
+
+Added buttons to filter funded, unfunded, or all games dynamically.
+
+Displayed the top two funded games using sorting and destructuring.
+Added a search bar for ease of finding the game using event listeners + filter + includes + toLowerCase + DOM manipulation.
 ## Notes
 
-Describe any challenges encountered while building the app.
+Minor challenges happened like figuring out how to make the search option appear and match the theme of the page. As well as making sure codes were right, and functional. Figuring out how to use git -m and git push were something new to learn how to do.
+
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2026 Amanda Buleu
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
